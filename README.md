@@ -17,6 +17,10 @@ The current `index.html` contains the card limits and statement-cycle days in it
 
 The exchange-rate lookup sends only the selected currency and PHP as the requested pair to Frankfurter. Purchase amounts are calculated on the device and are not sent by this app.
 
+## Promotions
+
+The picker includes a small curated set of date-limited promotions checked on 24 Oct 2026, plus links to each issuer’s promotion page. The promotion list is not live; verify offer terms, eligible merchants, registration requirements and expiry before paying. Update the promotion list in `index.html` when maintaining the app.
+
 ## Updating
 
 Replace the hosted files with the updated package. If the app shell changes, increment `CACHE_NAME` in `sw.js` so installed devices refresh the cache.
