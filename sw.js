@@ -1,4 +1,4 @@
-const CACHE_NAME = 'credit-card-picker-v5';
+const CACHE_NAME = 'credit-card-picker-v8';
 const APP_FILES = [
   './',
   './index.html',
